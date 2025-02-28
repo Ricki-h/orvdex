@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Tiro Devanagari Sanskrit';
+    color: #DDE0ED;
+    font-size: 20px;
+}
+
+body {
+    background: #242839;
+}
+#mostra-personagens {
+    background: #5674FF; 
+    padding: 10px 40px; 
+    border-radius: 50px; 
+    border: none; 
+    outline: none;
+}
+#mostra-personagens:hover {
+    cursor: pointer;
+    background: rgb(86, 145, 255);
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 300px;
+    background: #161E43;
+}
+header #nav #quantidade {
+    padding: 10px;
+    outline: none;
+    border: none;
+    color: #242839;
+    background: #DDE0ED;
+    border-radius: 50px;
+    margin-right: 10px;
+
+}
+header #nav #quantidade option {
+    color: #242839;
+}
+header #nav #pesquisa {
+    margin-right: 40px;
+}
+footer {
+    margin-top: 150px;
+    padding: 100px 300px;
+    background: #161E43;
+}
+
+#cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 0px 300px;
+}
+.card {
+    border-radius: 20px;
+    padding: 45px;
+    width: 375px;
+    background: #DDE0ED;
+    display: flex;
+    flex-direction: column;
+    transition: all 1s;
+}
+.card:hover {
+    scale: 1.05;
+}
+.card .img1, .card .img2 {
+    width: 340px;
+}
+.imagens {
+    position: relative;
+}
+.foguinho {
+    opacity: 0;
+    width: 300px;
+    scale: 1;
+    position: relative;
+    top: -60px;
+    transition: all 0.8s;
+}
+.img1 {
+    opacity: 1;
+    position: absolute;
+    top: -30px;
+    transition: all 0.5s;
+}
+.img2 {
+    opacity: 0;
+    position: absolute;
+    transition: all 0.5s;
+    top: -150px;
+}
+.card:hover .img1 {
+    opacity: 0;
+}
+.card:hover .img2 {
+    top: -150px;
+    opacity: 1;
+}
+.card:hover .foguinho {
+    opacity: 1;
+    scale: 1.9;
+    position: relative;
+    top: -60px;
+    left: 10px;
+}
