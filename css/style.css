@@ -10,6 +10,12 @@
 body {
     background: #242839;
 }
+header img {
+    width: auto;
+}
+footer img {
+    width: auto;
+}
 #mostra-personagens {
     background: #5674FF; 
     padding: 10px 40px; 
@@ -26,6 +32,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 30px 300px;
+    width: 100%;
     background: #161E43;
 }
 header #nav #quantidade {
@@ -41,7 +48,7 @@ header #nav #quantidade {
 header #nav #quantidade option {
     color: #242839;
 }
-header #nav #pesquisa {
+header #nav #pesquisar {
     margin-right: 40px;
 }
 footer {
@@ -49,9 +56,8 @@ footer {
     padding: 100px 300px;
     background: #161E43;
 }
-
 #cards {
-    margin-top: 100px;
+    margin-top: 120px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -136,15 +142,23 @@ footer {
     background: #DDE0ED;
 }
 
+#pesquisa {
+    padding: 0px 300px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
 #search {
     outline: none;
+    width: 80%;
     border: none;
     padding: 5px 20px;
     border-radius: 50px;
-    margin-right: 20px;
     color: #242839;
 }
 #busca {
+    width: 19%;
     color: #DDE0ED;
     padding: 5px 20px;
     outline: none;
@@ -181,8 +195,36 @@ footer {
 
 @media screen and (max-width: 1380px) {
     header {
-        padding: 30px 50px;
-        justify-content: space-around;
+        padding: 30px 100px;
+        justify-content: space-between;
+    }
+    footer {
+        margin-top: 150px;
+        padding: 100px 100px;
+        background: #161E43;
+    }
+    #pesquisa {
+        padding: 0px 100px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+    }
+    #search {
+        outline: none;
+        width: 80%;
+        border: none;
+        padding: 5px 20px;
+        border-radius: 50px;
+        color: #242839;
+    }
+    #busca {
+        width: 19%;
+        color: #DDE0ED;
+        padding: 5px 20px;
+        outline: none;
+        border-radius: 50px;
+        border: none;
+        background: #5674FF;
     }
     #cards {
         margin-top: 100px;
@@ -254,7 +296,7 @@ footer {
     header {
         display: flex;
         justify-content: space-between;
-        padding: 30px 50px;
+        padding: 30px 100px;
         background: #161E43;
     }
     #cards {
@@ -277,8 +319,31 @@ footer {
         justify-content: space-between;
         padding: 30px 50px;
         background: #161E43;
-        
     }
+    #pesquisa {
+        padding: 0px 50px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+    }
+    #search {
+        outline: none;
+        width: 80%;
+        border: none;
+        padding: 5px 20px;
+        border-radius: 50px;
+        color: #242839;
+    }
+    #busca {
+        width: 19%;
+        color: #DDE0ED;
+        padding: 5px 20px;
+        outline: none;
+        border-radius: 50px;
+        border: none;
+        background: #5674FF;
+    }
+
     header button, header a, header select, header option {
         font-size: 16px;
     }
@@ -367,6 +432,32 @@ footer {
         background: #161E43;
         
     }
+    #pesquisa {
+        padding: 0px 20px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+    }
+    #search {
+        outline: none;
+        width: 80%;
+        border: none;
+        padding: 5px 20px;
+        border-radius: 50px;
+        color: #242839;
+        font-size: 14px;
+    }
+    #busca {
+        width: 19%;
+        color: #DDE0ED;
+        padding: 5px 20px;
+        outline: none;
+        border-radius: 50px;
+        border: none;
+        background: #5674FF;
+        font-size: 14px;
+    }
+    
     header button, header a, header select, header option {
         font-size: 14px;
     }
@@ -389,9 +480,29 @@ footer {
     }
 }
 
-@media screen and (max-width: 510px) {
+@media screen and (max-width: 512px) {
     header {
         align-items: center;
+        justify-content: space-between;
+    }
+    #search {
+        outline: none;
+        width: 80%;
+        border: none;
+        padding: 5px 20px;
+        border-radius: 50px;
+        color: #242839;
+        font-size: 12px;
+    }
+    #busca {
+        width: 19%;
+        color: #DDE0ED;
+        padding: 5px 20px;
+        outline: none;
+        border-radius: 50px;
+        border: none;
+        background: #5674FF;
+        font-size: 10px;
     }
     header img {
         width: 100px;
