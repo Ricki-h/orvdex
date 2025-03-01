@@ -174,8 +174,7 @@ footer {
 #card2 {
     background: #DDE0ED;
     display: flex;
-    gap: 100px;
-    width: 1320px;
+    gap: 20px;
     padding: 50px;
     border-radius: 20px;
     align-items: center;
@@ -190,10 +189,27 @@ footer {
     font-size: 36px;
 }
 #card2 img {
-    height: 500px;
+    height: 25vw;
 }
 
 @media screen and (max-width: 1380px) {
+    #card2 {
+        background: #DDE0ED;
+        display: flex;
+        gap: 100px;
+        padding: 20px;
+        border-radius: 20px;
+        align-items: center;
+        margin: 100px 100px;
+    }
+    #card2 p, #card2 h1, #card2 strong {
+        color: #242839;
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+    #card2 b, #card2 h1 {
+        font-size: 36px;
+    }
     header {
         padding: 30px 100px;
         justify-content: space-between;
@@ -293,6 +309,23 @@ footer {
 }
 
 @media screen and (max-width: 1210px) {
+    #card2 {
+        background: #DDE0ED;
+        display: flex;
+        gap: 20px;
+        padding: 50px;
+        border-radius: 20px;
+        align-items: center;
+        margin: 100px 100px;
+    }
+    #card2 p, #card2 h1, #card2 strong {
+        color: #242839;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    #card2 b, #card2 h1 {
+        font-size: 30px;
+    }
     header {
         display: flex;
         justify-content: space-between;
@@ -319,6 +352,23 @@ footer {
         justify-content: space-between;
         padding: 30px 50px;
         background: #161E43;
+    }
+    #card2 {
+        background: #DDE0ED;
+        display: flex;
+        gap: 20px;
+        padding: 50px;
+        border-radius: 20px;
+        align-items: center;
+        margin: 100px 50px;
+    }
+    #card2 p, #card2 h1, #card2 strong {
+        color: #242839;
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    #card2 b, #card2 h1 {
+        font-size: 28px;
     }
     #pesquisa {
         padding: 0px 50px;
@@ -432,6 +482,27 @@ footer {
         background: #161E43;
         
     }
+    #card2 {
+        background: #DDE0ED;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 50px;
+        border-radius: 20px;
+        align-items: center;
+        margin: 100px 20px;
+    }
+    #card2 p, #card2 h1, #card2 strong {
+        color: #242839;
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    #card2 b, #card2 h1 {
+        font-size: 28px;
+    }
+    #card2 img {
+        height: 50vw;
+    }
     #pesquisa {
         padding: 0px 20px;
         display: flex;
@@ -484,6 +555,27 @@ footer {
     header {
         align-items: center;
         justify-content: space-between;
+    }
+    #card2 {
+        background: #DDE0ED;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 50px;
+        border-radius: 20px;
+        align-items: center;
+        margin: 100px 20px;
+    }
+    #card2 p, #card2 h1, #card2 strong {
+        color: #242839;
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+    #card2 b, #card2 h1 {
+        font-size: 24px;
+    }
+    #card2 img {
+        height: 50vw;
     }
     #search {
         outline: none;
